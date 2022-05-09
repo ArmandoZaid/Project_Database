@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Armando_ClassJualBeli.Kategori">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEBAAAAAQAAAAEAAAQAAAAQAAAAAAAA=</HashCode>
+      <FileName>Kategori.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Armando_ClassJualBeli.Barang">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAQAAAAAAACAAAAAAAABAIEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Barang.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Kategori" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Armando_ClassJualBeli.NotaBeliDetil">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>NotaBeliDetil.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Barang" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Armando_ClassJualBeli.NotaBeli">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAAAIABAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NotaBeli.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NotaBeliDetil" />
+      <Property Name="Supplier" />
+      <Property Name="Pegawai" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Armando_ClassJualBeli.Supplier">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABAAAAEAAAAAAQAAAAEAAAQIAAAQCAAAAAAA=</HashCode>
+      <FileName>Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Armando_ClassJualBeli.Jabatan">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Jabatan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Armando_ClassJualBeli.Pegawai">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAIEAAEAAAACAAAACAgAAAQA=</HashCode>
+      <FileName>Pegawai.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Jabatan" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Armando_ClassJualBeli.NotaJualDetil">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>NotaJualDetil.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Barang" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Armando_ClassJualBeli.NotaJual">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>NotaJual.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NotaJualDetil" />
+      <Property Name="Pelanggan" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Armando_ClassJualBeli.Pelanggan">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAEAAACAAAEAAA=</HashCode>
+      <FileName>Pelanggan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
